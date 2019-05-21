@@ -28,8 +28,6 @@ bot = commands.Bot("")
 for ext in  ["music"]:
     bot.load_extension(ext)
 
-rol=[]
-ser=[]
 
 @bot.event
 async def on_ready():
